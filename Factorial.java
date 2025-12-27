@@ -1,5 +1,6 @@
 import java.util.*;
 
+<<<<<<< HEAD
 class Number
 {
    public int Factorial(int iValue)
@@ -34,3 +35,24 @@ public class Factorial
    }
    
 }
+=======
+class Factorial
+{
+   public static void main(String Args[])
+   {
+   Scanner sobj = new Scanner(System.in);
+
+   System.out.println("Entetr Number : ");
+   int iNo = sobj.nextInt();
+
+   int iMult = 1;
+
+   for(int iCnt = 1 ; iCnt <= iNo; iCnt++)
+   {
+      iMult = iMult * iCnt ;
+   }
+   
+   System.out.println("Factorial is : "+iMult);
+   }
+}
+>>>>>>> e19b41c40a407939933249ee250bc5577d668bcb
